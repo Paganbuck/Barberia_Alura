@@ -1,0 +1,240 @@
+header{
+    background-color: #bbb;
+    /* padding: 10px 0; */
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0  auto;
+}
+
+.logo{
+    width: 80px;
+}
+
+nav{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav li a{
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+/* ALgunos efectos  */
+.productos li:hover{
+    color: #c78c19;
+    border-color: #c78c19;
+}
+
+.productos li:active{
+    border-color: #088c;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* zoon tarjeta productos */
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background-image: url(/images/bg.jpg);
+    padding: 10px;
+}
+
+/* modificando el tamaño de la imagen footer  */
+
+.footer{
+    width: 80px;
+}
+
+.copyright{
+    color: #fff;
+    margin: 10px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background: #2b70ca;
+    border: none;
+    border-radius: 8px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background:rgb(221, 218, 218);
+    color: #2b70ca;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 40px;
+}
+
+thead{
+    background: #555555;
+    color: #fff;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000;
+    padding: 8px 15px;
+}
+.ubica{
+    position: absolute;
+    display: inline-block;
+}
+
+/* CSS PARA INDEX PAGE */
+
+.banner{
+    width: 100%;
+    height: 300px;
+}
+
+.titulo-principal{
+    text-align:center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    margin-top: 20px;
+    clear: left;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.contenido-diferenciales{
+    width: 640pxx;
+    margin: 0 auto;
+}
+
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.items::before{
+    content:"*";
+}
+
+.items:first-child{
+    font-size: 20px;
+    font-style: italic;
+    color: #797171;
+    text-decoration: underline;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+     
+}
+
+.video {
+    width: 560px;
+    margin: 1em auto;
+}
+
+
+
