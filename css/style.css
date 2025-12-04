@@ -84,10 +84,12 @@ nav a:hover{
     margin-top: 10px;
 }
 
-footer{
+footer {
     text-align: center;
-    background-image: url(/images/bg.jpg);
-    padding: 10px;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
 }
 
 /* modificando el tamaño de la imagen footer  */
